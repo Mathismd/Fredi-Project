@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FREDI - Inscription</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h1>Rejoignez FREDI</h1>
+      <p>Créez votre compte pour accéder à votre espace personnel et gérer vos frais.</p>
+    </div>
+
+    <div class="right-panel">
+      <h2>Inscription</h2>
+      <form action="register.php" method="POST">
+        <div class="input-group">
+          <label>Nom</label>
+          <input type="text" name="nom" placeholder="Votre nom" required>
+        </div>
+
+        <div class="input-group">
+          <label>Prénom</label>
+          <input type="text" name="prenom" placeholder="Votre prénom" required>
+        </div>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="Votre email" required>
+        </div>
+
+        <div class="input-group">
+          <label>Mot de passe</label>
+          <input type="password" name="password" placeholder="Votre mot de passe" required>
+        </div>
+
+        <div class="input-group">
+          <label>Numéro de licence</label>
+          <input type="text" name="licence" placeholder="Votre numéro de licence" required>
+        </div>
+
+        <div class="actions">
+          <button type="submit">Créer un compte</button>
+        </div>
+
+        <p class="signup-text">Déjà inscrit ? <a href="index.html">Se connecter</a></p>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
